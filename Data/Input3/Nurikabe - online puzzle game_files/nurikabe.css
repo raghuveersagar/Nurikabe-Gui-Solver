@@ -1,0 +1,40 @@
+img.l{
+	cursor: pointer;
+}
+#puzzleContainer{
+	background-color:#fff;
+}
+#NurikabeTable td{
+	border:1px solid #000;
+	font-weight: bold;
+	cursor: default;
+	-moz-user-select: none;
+}
+#NurikabeTable{
+	border:2px solid #000;
+	border-collapse: collapse;
+}
+.t00{
+	border:1px solid #000;
+}
+.t10{
+	border:1px solid #000;
+	border-top: 2px solid #000;
+}
+.t01{
+	border:1px solid #000;
+	border-left: 2px solid #000;
+}
+.t11{
+	border:1px solid #000;
+	border-top: 2px solid #000;
+	border-left: 2px solid #000;
+}
+
+@media print {
+	#NurikabeMainContainer{
+		padding: 0px;
+		text-align: center;
+	}
+}
+
