@@ -2,6 +2,7 @@
 Nurikabe Puzzle solver with GUI
 This project uses back tracking to solve 'Nurikabe'(http://en.wikipedia.org/wiki/Nurikabe_(puzzle)).
 The idea is there are cells with numbers,and we need to build islands of cells of that number.Rest will be be covered with water.If you like to try some sample puzzles,go here http://www.puzzle-nurikabe.com/.The rules are listed in the left side. 
+
 It is an NP-Complete problem.
 Please refer to this paper for more useful information on that(http://cage.ugent.be/~klein/papers/nurikabe.pdf).
 Here I have tried to impelement puzzle solvers for size of 10*10,12*12,20*20.The performance for such numbers is very good.
